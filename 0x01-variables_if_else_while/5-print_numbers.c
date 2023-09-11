@@ -11,6 +11,6 @@ int main(void)
 	{
 		printf("%d", i);
 	}
-	putcher(10);
+	putchar(10);
 	return (0);
 }

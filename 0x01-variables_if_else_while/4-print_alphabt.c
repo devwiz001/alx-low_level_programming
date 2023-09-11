@@ -17,7 +17,8 @@ int main(void)
 			continue;
 		}
 		putchar(lowerCase);
-		loweCase++;
+		lowerCase++;
 	}
 	putchar(10);
 	return (0);
+}
