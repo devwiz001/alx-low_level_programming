@@ -1,10 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * print_diagsums - print sum
- * @a: pointer
- * @size: size of metrix
+ * print_diagsums - Prints the sum
+ * @a: A pointer
+ * @size: The size of the square matrix
  */
 void print_diagsums(int *a, int size)
 {
@@ -19,4 +18,3 @@ void print_diagsums(int *a, int size)
 
 	printf("%d, %d\n", sum1, sum2);
 }
-
