@@ -20,7 +20,7 @@ int sqrt_helper(int n, int guess)
  * _sqrt_recursion - gets the natural square root of a number
  * @n: number
  *
- * Return: square root 
+ * Return: square root
  * l square root.
  */
 int _sqrt_recursion(int n)
