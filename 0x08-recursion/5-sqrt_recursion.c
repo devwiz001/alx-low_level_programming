@@ -17,10 +17,10 @@ int sqrt_helper(int n, int guess)
 	return (sqrt_helper(n, guess + 1));
 }
 /**
- * _sqrt_recursion - Calculates the natural square root of a number
- * @n: The number for which to calculate the square root
+ * _sqrt_recursion - gets the natural square root of a number
+ * @n: number
  *
- * Return: square root of n
+ * Return: square root 
  * l square root.
  */
 int _sqrt_recursion(int n)
