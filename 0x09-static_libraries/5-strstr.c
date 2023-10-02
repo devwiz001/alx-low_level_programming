@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * _strstr - entry point
  * @haystack: input
@@ -38,6 +38,6 @@ char *_strstr(char *haystack, char *needle)
 	}
 
 
-	return (0);
+	return (NULL);
 
 }
