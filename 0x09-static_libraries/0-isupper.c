@@ -1,30 +1,26 @@
 #include "main.h"
 
 /**
- * _memset - fill a patictular block of memeory with a value
- * @s: starting the adddress of memory to be filled
- * @b: the value
- * @n: number of bytes that will change
- * Return: changed array with new value for n bytes
+ * _isupper - where my program start
+ * @c: function receieved
+ *
+ *
+ * Return: 0 or 1
+ *
  */
 
-char *_memset(char *s, char b, unsigned int n)
+int _isupper(int c)
 
 {
 
-	int i = 0;
+	if (c >= 'A' && c <= 'Z')
 
+		return (1);
 
-	for (; n > 0; i++)
+	else
 
-	{
-
-		s[i] = b;
-
-		n--;
-
-	}
-
-	return (s);
+		return (0);
 
 }
+
+
