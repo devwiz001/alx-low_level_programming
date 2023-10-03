@@ -1,5 +1,11 @@
 #include <stdio.h>
-int main (int argc, char *argv[])
+/**
+ * main - to print it name
+ * @argc: arg componet
+ * @argv: arg vector
+ * Return: 0 (sucessful)
+ */
+int main(int argc, char *argv[])
 {
 	if (argc >= 1)
 	{
