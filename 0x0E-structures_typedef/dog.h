@@ -2,15 +2,15 @@
 #define DOG_H
 /**
  * struct dog - where code start
- * @name: element 
+ * @name: element
  * @age: element
  * @owner: element
  */
 struct dog
 {
-char* name;
+char *name;
 float age;
-char* owner;
+char *owner;
 };
 
 #endif
